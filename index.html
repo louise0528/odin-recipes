@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
 </head>
+
 <body>
-    <h1>Japanese Recipes</h1>
+    <main>
+        <div>
+            <form action="./recipes">
+                <input type="text" name="query" placeholder="Search recipe">
+                <button>Search</button>
+            </form>
+        </div>
 
-    <!--Add image here-->
+        <header>
+        <h1>Japanese Recipes</h1>
+        <img src="./images/index.jpg" alt="Picture of Bento Boxes meal" height="400" width="650">
 
-    <ul>
-        <li a href="">Katsudon Rice Bowl</li>
-        <li a href="">Yaki Onigiri Rice Balls with Miso</li>
-        <li a href="">Maki Sushi Rolls</li>
-        <li a href="">Tofu Shakes</li>
-    </ul>
+        <h2>Learn how to prepare various Japanese dishes by using different seasonal or staple Japanese ingredients.
+        </h2>
 
+        <p>From rice and tofu to miso and noodles, if you have the Japanese ingredients but are unsure what you can do
+            with them, browse our recipes for inspiration!</p>
+        </header>
+
+        <section>
+            <h2>Recipes</h2>
+            <ul>
+                <li><a href="./recipes/katsudon.html">Katsudon Rice Bowl</a></li>
+                <li><a href="./recipes/onigiri.html">Yaki Onigiri Rice Balls with Miso</a></li>
+                <li><a href="./recipes/makisushi.html">Maki Sushi Rolls</a></li>
+                <li><a href="./recipes/tofushakes.html">Tofu Shakes</a></li>
+                <li><a href="./recipes/misosoup.html">Miso Soup</a></li>
+            </ul>
+        </section>
+    </main>
 
 </body>
+
 </html>
